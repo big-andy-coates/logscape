@@ -346,30 +346,6 @@
           <synthSrcField>_filename</synthSrcField>
           <synthRegExp>.*?_(.*?)_.*</synthRegExp>
         </com.liquidlabs.log.fields.field.JRegExField>
-        <com.liquidlabs.log.fields.field.JRegExField>
-          <name>engine</name>
-          <funct>count()</funct>
-          <visible>true</visible>
-          <summary>true</summary>
-          <index>false</index>
-          <description>null</description>
-          <groupId>1</groupId>
-          <expression>.*/work/(.*?)/.*</expression>
-          <synthSrcField>_path</synthSrcField>
-          <synthRegExp>.*/work/(.*?)/.*</synthRegExp>
-        </com.liquidlabs.log.fields.field.JRegExField>
-        <com.liquidlabs.log.fields.field.JRegExField>
-          <name>gc_config</name>
-          <funct>count()</funct>
-          <visible>true</visible>
-          <summary>true</summary>
-          <index>false</index>
-          <description></description>
-          <groupId>1</groupId>
-          <expression>.*gc_cachenode-(cachenode.*?)_lonrs.*</expression>
-          <synthSrcField>_path</synthSrcField>
-          <synthRegExp>.*gc_cachenode-(cachenode.*?)_lonrs.*</synthRegExp>
-        </com.liquidlabs.log.fields.field.JRegExField>
       </fields>
       <example>
         <string>2013-08-19T18:29:59.139+0100: 1796.664: [Full GC [PSYoungGen: 1311362K-&gt;0K(10485760K)] [PSOldGen: 15020432K-&gt;1927380K(15728640K)] 16331794K-&gt;1927380K(26214400K) [PSPermGen: 67943K-&gt;67943K(83968K)], 8.3909290 secs] [Times: user=8.39 sys=0.00, real=8.39 secs] </string>
