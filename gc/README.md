@@ -4,6 +4,8 @@ Files in this folder:
 A workspace for displaying coherence storage node GC profiles. Requries `hotspot-datatype.xml` and relies 
 on storage enabled nodes having a role of 'cachenode', though this can easily be changed.
 
+The workspace currently assumes the cluster is running with the CMS collector.
+
 ## hotspot-datatype.xml
 A data type for intepretting hotspot GC logs.
 
